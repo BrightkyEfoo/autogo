@@ -1,0 +1,9 @@
+#submitProfile {
+  width: 250px;
+}
+
+#submitProfile,
+input {
+  width: 100px;
+  background-color: purple;
+}
