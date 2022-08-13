@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import LogOutHelp from '../components/LogOutHelp'
 import NavBar from '../components/NavBar'
 import { bottomNavBarContainer, mainBoxesStyle } from '../style'
-import im from './pfe.PNG'
+// import im from './pfe.PNG'
 const Profile = () => {
-    const [file , setFile] = useState(im)
+    const [file , setFile] = useState('')
     console.log(file)
   return (
     <>
